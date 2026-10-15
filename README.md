@@ -1,4 +1,4 @@
-Custom Lynis Security Audit Scripts
+#Custom Lynis Security Audit Scripts
 
 Author: ANEESH A
 
@@ -8,16 +8,13 @@ This project extends Linux security auditing with custom shell scripts designed 
 
 Scripts
 
-enhanced_mount_security.sh — checks effective filesystem mounts for nodev, nosuid, and noexec.
+1) enhanced_mount_security.sh — checks effective filesystem mounts for nodev, nosuid, and noexec.
 
-enhanced_dns_security.sh — checks DNS nameserver entries, duplicate entries, and resolver target permissions.
+2) enhanced_dns_security.sh — checks DNS nameserver entries, duplicate entries, and resolver target permissions.
 
 Requirements
 
-Linux or WSL Ubuntu
-
-Lynis
-
-findmnt
-
-Standard Linux shell utilities
+1) Linux or WSL Ubuntu
+2) Lynis
+3) findmnt
+4) Standard Linux shell utilities
